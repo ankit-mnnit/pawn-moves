@@ -3,7 +3,8 @@
 ## Instructions for building and running the code
 ###
 In app/src
-    - javac -d out/dev/app app/src/pawntour/*.java
+1. mkdir out/dev/app
+2. javac -d out/dev/app app/src/pawntour/\*.java app/src/\*.java
 
 In out/dev/app
     - java Solution 10 true
